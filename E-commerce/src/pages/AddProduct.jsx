@@ -11,7 +11,11 @@ function AddProduct() {
     navigate('/');
   };
 
-  return <ProductForm onAdd={handleAdd} />;
+  return (
+    <div>
+      <ProductForm onAdd={handleAdd} />
+    </div>
+  );
 }
 
 export default AddProduct;
