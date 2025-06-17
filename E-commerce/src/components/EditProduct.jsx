@@ -1,7 +1,7 @@
 // src/pages/EditProduct.jsx
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import ProductForm from '../components/ProductForm';
+import ProductForm from './ProductForm';
 
 function EditProduct() {
   const { id } = useParams();

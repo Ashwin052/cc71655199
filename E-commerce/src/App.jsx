@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import AddProduct from './pages/AddProduct';
-import EditProduct from './pages/EditProduct'; // if editing is enabled
-import bgImage from './assets/background.jpg'; // ✅ correct path
+import EditProduct from './components/EditProduct';
+import bgImage from './assets/background.jpg';
 
 function App() {
   return (
